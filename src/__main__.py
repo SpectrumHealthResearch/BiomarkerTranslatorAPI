@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-WSGI
+Biomarker Translator API Debug Mode
 """
-
 from .api import app
 
-app.run()
+
+app.run(debug=True)

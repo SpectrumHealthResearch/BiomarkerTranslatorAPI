@@ -9,14 +9,14 @@ will install `virtualenv` and all packages. Run this the first time you clone
 the repo.
 
 ```bash
-source make_pyenv.sh
+source init.sh
 ```
 
 Afterward, if you deactivate your session or log out of bash, you can get
 reactivate your virtualenv using the following command.
 
 ```bash
-source pyenv/bin/active
+source flask/bin/active
 ```
 
 ## Prototype Phase KPIs
@@ -32,6 +32,18 @@ proof of concept. In phase 2, we will continue to update the dataset.
 | /disease             | List all related drugs and their biomarkers     |
 | /patient             | List all OCTAD patients with a given biomarker  |
 
-## Reference
+## WSGI
 
-[Flask-RESTful Documentation](https://flask-restful.readthedocs.io/en/latest/)
+Currently, I am planning the production WSGI to be implemented with
+[`mod_wsgi`](https://flask.palletsprojects.com/en/1.1.x/deploying/mod_wsgi/)
+since I am most experienced with Apache web servers. This is not required for
+the prototype phase, but will be a consideration as development progresses.
+
+## References
+
+Documentation and walkthroughs down below:
+
+- [Flask Documentation](https://flask.palletsprojects.com/en/1.1.x/)
+- [Flask `mod_wsgi` Documentation](https://flask.palletsprojects.com/en/1.1.x/deploying/mod_wsgi/)
+- [Flask-RESTful Documentation](https://flask-restful.readthedocs.io/en/latest/)
+- [Flask SQLAlchemy Documentation](https://flask-sqlalchemy.palletsprojects.com/en/2.x/)
