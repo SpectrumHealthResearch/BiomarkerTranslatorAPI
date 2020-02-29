@@ -29,7 +29,7 @@ To run the app in DEBUG mode, activate your virtual environment and
 then run the app using `python3 -m src`. This will run the app on
 localhost:5000. _DO NOT PUT IN PRODUCTION USING THIS METHOD_.
 
-### Python Environment
+### Python Virtual Environment
 
 This project uses `virtualenv` to manage packages. There is a script that
 will install `virtualenv` and all packages. Run this the first time you clone
@@ -46,6 +46,12 @@ reactivate your virtualenv using the following command.
 source flask/bin/active
 ```
 
+### Environment File
+
+Running _init.sh_ also creates a [.env](https://pypi.org/project/python-dotenv/)
+template file. You will need to adjust the variables for your setup.
+_Remember to keep this at mode 600 for security._
+
 ### MySQL Schema
 
 Create your schema with _create_biomarker_schema.sql_. This is still in flux
@@ -54,7 +60,7 @@ before production, keep your eye on changes to this file.
 
 (Coming soon) The plan is to have a load-data script in either scala, R, python, or SQL, depending
 on which programmer gets to the task first. There will be a _load_data.xyz_ and further
-instructions in the near future. 
+instructions in the near future.
 
 ### Apache WSGI
 
@@ -71,4 +77,3 @@ Documentation and walkthroughs down below:
 - [Flask `mod_wsgi` Documentation](https://flask.palletsprojects.com/en/1.1.x/deploying/mod_wsgi/)
 - [`mod_wsgi` Github Site](https://github.com/GrahamDumpleton/mod_wsgi)
 - [Flask-RESTful Documentation](https://flask-restful.readthedocs.io/en/latest/)
-- [Flask SQLAlchemy Documentation](https://flask-sqlalchemy.palletsprojects.com/en/2.x/)

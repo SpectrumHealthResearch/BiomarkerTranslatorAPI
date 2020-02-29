@@ -14,7 +14,8 @@ setup(name="BiomarkerTranslatorAPI",
       install_requires=[
           'flask',
           'flask_restful',
-          'flask_sqlalchemy'
+          'pymysql',
+          'python-dotenv',
       ],
       keywords=["biomarker", "translational medicine", "API"],
       python_requires=">=3.5")
