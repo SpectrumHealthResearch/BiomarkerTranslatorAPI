@@ -12,10 +12,12 @@ class Query():
                                     charset='utf8mb4',
                                     cursorclass=pymysql.cursors.DictCursor)
 
+        self.cursor = self.conn.cursor()
+
     def __del__(self):
         self.conn.close()
 
-    def fetch(self, sql, params):
+    def quick_fetch(self, sql, params):
         cursor = self.conn.cursor()
         cursor.execute(sql, params)
         return cursor.fetchall()

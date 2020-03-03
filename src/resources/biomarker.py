@@ -4,12 +4,12 @@ from ..common.query import Query
 
 class Biomarker(Resource):
 
-    def get(self, alias=None):
-        if not alias:
+    def get(self, curie=None):
+        if not curie:
             return None
-        return ({'alias': alias})
+        return ({'curie': curie})
 
-    def post(self, alias):
-        if not alias:
+    def post(self, curie):
+        if not curie:
             return None
-        return ({'alias': alias})
+        return ({'curie': curie})

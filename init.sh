@@ -1,12 +1,14 @@
 #!/bin/bash
 
+set -e
+
 # Python virtualenv
 if [ -e flask ]; then
   source flask/bin/activate
   echo "Environment already exists" >&2
 else
   pip3 install --user virtualenv
-  virtualenv flask
+  python3 -m virtualenv flask
   source flask/bin/activate
   pip install $(sed '/^#/d' packages)
   echo -e "New environment 'flask' installed" \
