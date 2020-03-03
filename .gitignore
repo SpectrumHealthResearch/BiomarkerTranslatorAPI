@@ -2,6 +2,7 @@
 
 internal-docs/
 pyenv/
+flask/
 data/
 
 # Byte-compiled / optimized / DLL files
