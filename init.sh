@@ -10,7 +10,7 @@ else
   pip3 install --user virtualenv
   python3 -m virtualenv flask
   source flask/bin/activate
-  pip install $(sed '/^#/d' packages)
+  pip install -r requirements.txt
   echo -e "New environment 'flask' installed" \
           "\nUse 'source flask/bin/activate' to activate" \
           "\nUse 'deactivate' to deactivate the virtualenv" >&2
