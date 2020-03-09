@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-from setuptools import setup
+from setuptools import setup, find_packages
 
 setup(name="BiomarkerTranslatorAPI",
       version="0.0",
@@ -10,7 +10,7 @@ setup(name="BiomarkerTranslatorAPI",
       url="https://github.com/SpectrumHealthResearch/BiomarkerTranslatorAPI",
       license="GPL-3",
       package_dir={"BiomarkerTranslatorAPI": "src"},
-      packages=["BiomarkerTranslatorAPI"],
+      packages=find_packages(),
       install_requires=[
           'flask',
           'flask_restful',
