@@ -1,0 +1,120 @@
+openapi: 3.0.2
+info:
+  title: Translator Biomarker API
+  description: API to return biomarker information for the NCATS Biomedical Translator project.
+  version: '1.0'
+  
+paths:
+  /biomarker/{biomarker_id}:
+    get:
+      parameters:
+        - in: path
+          name: biomarker_id
+          required: true
+          schema:
+            type: string
+      description: List biomarker information, including related drugs and diseases
+      responses:
+        200:
+          description: Successful operation
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/NodeList'
+        404:
+          description: Biomarker not found
+   
+  /drug/{drug_id}:
+    get:
+      parameters:
+        - in: path
+          name: drug_id
+          required: true
+          schema:
+            type: string
+      description: List drug names, targets, and associated biomarkers
+      responses:
+        200:
+          description: Successful operation
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/NodeList'
+        404:
+          description: Drug not found
+          
+     
+  /disease/{disease_name}:
+    get:
+      parameters:
+        - in: path
+          name: disease_name
+          required: true
+          schema:
+            type: string
+      description: List all related drugs and biomarkers
+      responses:
+        200:
+          description: Successful operation
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/NodeList'
+        404:
+          description: Disease not found    
+    
+  /patient/{biomarker_id}:
+    get:
+      parameters:
+        - in: path
+          name: biomarker_id
+          required: true
+          schema:
+            type: string
+      description: List all OCTAD patients with a given biomarker
+      responses:
+        200:
+          description: Successful operation
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/NodeList'
+        404:
+          description: Biomarker not found
+
+components:
+  schemas:
+    NodeList: 
+      type: object
+      description: A list of nodes that answer the query
+      properties:
+        nodes:
+          type: array
+          description: List of matching nodes
+          items:
+            $ref: '#/components/schemas/Node'
+    Node:
+      type: object
+      description: A node in a thought subgraph
+      properties:
+        id:
+          type: string
+        name:
+          type: string
+        type:
+          oneOf:
+            - type: string
+            - type: array
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  
