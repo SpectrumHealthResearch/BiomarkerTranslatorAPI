@@ -1,0 +1,502 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="9.6568823in"
+   height="6.5700941in"
+   viewBox="0 0 245.28481 166.88039"
+   version="1.1"
+   id="svg8"
+   inkscape:version="0.92.4 (5da689c313, 2019-01-14)"
+   sodipodi:docname="datamodel_3-13-2020.svg">
+  <defs
+     id="defs2">
+    <marker
+       inkscape:stockid="Arrow2Lend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker5207"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         id="path5205"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         transform="matrix(-1.1,0,0,-1.1,-1.1,0)"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow2Lend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker5167"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         id="path5165"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         transform="matrix(-1.1,0,0,-1.1,-1.1,0)"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow2Lend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker5133"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         id="path5131"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         transform="matrix(-1.1,0,0,-1.1,-1.1,0)"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow2Lend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker5105"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         id="path5103"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         transform="matrix(-1.1,0,0,-1.1,-1.1,0)"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow2Lend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow2Lend"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         id="path4842"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         transform="matrix(-1.1,0,0,-1.1,-1.1,0)"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow2Lend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker5207-4"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         inkscape:connector-curvature="0"
+         id="path5205-1"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         transform="matrix(-1.1,0,0,-1.1,-1.1,0)" />
+    </marker>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.98994949"
+     inkscape:cx="350.79205"
+     inkscape:cy="366.71654"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     units="in"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:window-width="1920"
+     inkscape:window-height="1001"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-14.754655,-114.99265)">
+    <g
+       id="g4539"
+       transform="matrix(0.4872999,0,0,0.4872999,89.517946,138.29634)">
+      <rect
+         y="79.622383"
+         x="40.213158"
+         height="63.960587"
+         width="119.52309"
+         id="rect4518"
+         style="opacity:1;fill:#acbccc;fill-opacity:1;stroke:#acbccc;stroke-width:0.91536111;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <text
+         id="text4522"
+         y="92.325897"
+         x="52.349705"
+         style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+         xml:space="preserve"><tspan
+           style="stroke-width:0.26458332"
+           y="92.325897"
+           x="52.349705"
+           id="tspan4520"
+           sodipodi:role="line">biomarker_record</tspan><tspan
+           id="tspan4524"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.46666622px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.26458332"
+           y="105.55506"
+           x="52.349705"
+           sodipodi:role="line">record_id</tspan><tspan
+           id="tspan4526"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.46666622px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.26458332"
+           y="118.78423"
+           x="52.349705"
+           sodipodi:role="line">biomarker_description</tspan><tspan
+           id="tspan4528"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.46666622px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.26458332"
+           y="132.0134"
+           x="52.349705"
+           sodipodi:role="line">biomarker_relations</tspan></text>
+      <path
+         inkscape:connector-curvature="0"
+         id="path4530"
+         d="M 40.065475,96.823811 H 159.88393"
+         style="fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    </g>
+    <g
+       id="g4539-7"
+       transform="matrix(0.4872999,0,0,0.4872999,15.734191,76.415696)">
+      <rect
+         y="79.622383"
+         x="40.213158"
+         height="63.960587"
+         width="119.52309"
+         id="rect4518-4"
+         style="opacity:1;fill:#acbccc;fill-opacity:1;stroke:#acbccc;stroke-width:0.91536111;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <text
+         id="text4522-0"
+         y="92.325897"
+         x="52.349705"
+         style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+         xml:space="preserve"><tspan
+           style="stroke-width:0.26458332"
+           y="92.325897"
+           x="52.349705"
+           id="tspan4520-2"
+           sodipodi:role="line">patient</tspan><tspan
+           id="tspan4524-8"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.46666622px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.26458332"
+           y="105.55506"
+           x="52.349705"
+           sodipodi:role="line">record_id</tspan><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.46666622px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.26458332"
+           y="118.78423"
+           x="52.349705"
+           sodipodi:role="line"
+           id="tspan4657">patient_id</tspan></text>
+      <path
+         inkscape:connector-curvature="0"
+         id="path4530-8"
+         d="M 40.065475,96.823811 H 159.88393"
+         style="fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    </g>
+    <g
+       id="g4539-79"
+       transform="matrix(0.4872999,0,0,0.4872999,172.29693,77.618682)">
+      <rect
+         y="79.622383"
+         x="40.213158"
+         height="63.960587"
+         width="119.52309"
+         id="rect4518-2"
+         style="opacity:1;fill:#acbccc;fill-opacity:1;stroke:#acbccc;stroke-width:0.91536111;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <text
+         id="text4522-4"
+         y="92.325897"
+         x="52.349705"
+         style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+         xml:space="preserve"><tspan
+           style="stroke-width:0.26458332"
+           y="92.325897"
+           x="52.349705"
+           id="tspan4520-5"
+           sodipodi:role="line">evidence</tspan><tspan
+           id="tspan4524-1"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.46666622px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.26458332"
+           y="105.55506"
+           x="52.349705"
+           sodipodi:role="line">record_id</tspan><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.46666622px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.26458332"
+           y="118.78423"
+           x="52.349705"
+           sodipodi:role="line"
+           id="tspan4675">source</tspan><tspan
+           id="tspan4528-8"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.46666622px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.26458332"
+           y="132.0134"
+           x="52.349705"
+           sodipodi:role="line">source_id</tspan></text>
+      <path
+         inkscape:connector-curvature="0"
+         id="path4530-3"
+         d="M 40.065475,96.823811 H 159.88393"
+         style="fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    </g>
+    <g
+       id="g4539-75"
+       transform="matrix(0.4872999,0,0,0.4872999,181.97697,147.24554)">
+      <rect
+         y="79.622383"
+         x="40.213158"
+         height="63.960587"
+         width="119.52309"
+         id="rect4518-5"
+         style="opacity:1;fill:#acbccc;fill-opacity:1;stroke:#acbccc;stroke-width:0.91536111;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <text
+         id="text4522-8"
+         y="92.325897"
+         x="52.349705"
+         style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+         xml:space="preserve"><tspan
+           style="stroke-width:0.26458332"
+           y="92.325897"
+           x="52.349705"
+           id="tspan4520-0"
+           sodipodi:role="line">disease</tspan><tspan
+           id="tspan4524-3"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.46666622px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.26458332"
+           y="105.55506"
+           x="52.349705"
+           sodipodi:role="line">record_id</tspan><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.46666622px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.26458332"
+           y="118.78423"
+           x="52.349705"
+           sodipodi:role="line"
+           id="tspan4667">name</tspan><tspan
+           id="tspan4528-9"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.46666622px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.26458332"
+           y="132.0134"
+           x="52.349705"
+           sodipodi:role="line">id</tspan></text>
+      <path
+         inkscape:connector-curvature="0"
+         id="path4530-9"
+         d="M 40.065475,96.823811 H 159.88393"
+         style="fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    </g>
+    <g
+       id="g4809"
+       transform="translate(15.234363,3.4745039)">
+      <g
+         transform="translate(56.928409,2.9399648)"
+         id="g4788">
+        <rect
+           style="opacity:1;fill:#acbccc;fill-opacity:1;stroke:#acbccc;stroke-width:0.50294322;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           id="rect4518-53"
+           width="58.186699"
+           height="39.663723"
+           x="33.881329"
+           y="235.54338" />
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-weight:normal;font-size:5.15725708px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.12893142"
+           x="39.767021"
+           y="241.70537"
+           id="text4522-9"><tspan
+             sodipodi:role="line"
+             id="tspan4520-7"
+             x="39.767021"
+             y="241.70537"
+             style="stroke-width:0.12893142">molecular_entity </tspan><tspan
+             sodipodi:role="line"
+             x="39.767021"
+             y="248.15195"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.12580538px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.12893142"
+             id="tspan4524-14">record_id</tspan><tspan
+             sodipodi:role="line"
+             x="39.767021"
+             y="254.59851"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.12580538px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.12893142"
+             id="tspan4526-0">name</tspan><tspan
+             id="tspan4659"
+             sodipodi:role="line"
+             x="39.767021"
+             y="261.04507"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.12580538px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.12893142">ensembl</tspan><tspan
+             id="tspan4661"
+             sodipodi:role="line"
+             x="39.767021"
+             y="267.49164"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.12580538px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.12893142">biomarker_type</tspan><tspan
+             sodipodi:role="line"
+             x="39.767021"
+             y="273.93823"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.12580538px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.12893142"
+             id="tspan4528-3">biomarker_direction</tspan></text>
+        <path
+           style="fill:none;stroke:#000000;stroke-width:0.12893142px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           d="M 33.780919,243.89719 H 92.16844"
+           id="path4530-0"
+           inkscape:connector-curvature="0" />
+      </g>
+    </g>
+    <g
+       id="g4729"
+       transform="translate(-176.1133,36.173433)">
+      <rect
+         y="142.35667"
+         x="191.10385"
+         height="34.884022"
+         width="58.21785"
+         id="rect4518-2-5"
+         style="opacity:1;fill:#acbccc;fill-opacity:1;stroke:#acbccc;stroke-width:0.47179323;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <text
+         id="text4522-4-3"
+         y="148.53423"
+         x="197.00513"
+         style="font-style:normal;font-weight:normal;font-size:5.15725708px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.12893142"
+         xml:space="preserve"><tspan
+           style="stroke-width:0.12893142"
+           y="148.53423"
+           x="197.00513"
+           id="tspan4520-5-2"
+           sodipodi:role="line">drug</tspan><tspan
+           id="tspan4524-1-9"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.12580538px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.12893142"
+           y="154.9808"
+           x="197.00513"
+           sodipodi:role="line">record_id</tspan><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.12580538px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.12893142"
+           y="161.42737"
+           x="197.00513"
+           sodipodi:role="line"
+           id="tspan4675-9">name</tspan><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.12580538px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.12893142"
+           y="167.87393"
+           x="197.00513"
+           sodipodi:role="line"
+           id="tspan4687">drugbank_id</tspan><tspan
+           id="tspan4528-8-5"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.12580538px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.12893142"
+           y="174.32051"
+           x="197.00513"
+           sodipodi:role="line">pubchem_id</tspan></text>
+      <path
+         inkscape:connector-curvature="0"
+         id="path4530-3-4"
+         d="m 191.01902,150.72606 h 58.38752"
+         style="fill:none;stroke:#000000;stroke-width:0.12893142px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    </g>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#marker5105)"
+       d="m 173.72519,171.38332 14.16529,-18.70886"
+       id="path4811"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#marker5207)"
+       d="m 135.50565,211.47375 -0.26727,26.19241"
+       id="path4813"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:#d40000;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#marker5167)"
+       d="M 105.86683,185.47857 75.936776,184.47953"
+       id="path4815"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#marker5133)"
+       d="M 112.5849,170.84878 98.419619,149.46722"
+       id="path4817"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#marker5207-4)"
+       d="m 170.98484,185.25087 25.22433,7.06022"
+       id="path4813-6"
+       inkscape:connector-curvature="0" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="82.853546"
+       y="182.34137"
+       id="text6312"><tspan
+         sodipodi:role="line"
+         id="tspan6310"
+         x="82.853546"
+         y="182.34137"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.58611107px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.26458332">has_drug</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="104.68487"
+       y="157.6848"
+       id="text6312-8"><tspan
+         sodipodi:role="line"
+         id="tspan6310-7"
+         x="104.68487"
+         y="157.6848"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.58611107px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.26458332">has_patient</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="180.32214"
+       y="167.3065"
+       id="text6312-3"><tspan
+         sodipodi:role="line"
+         id="tspan6310-2"
+         x="180.32214"
+         y="167.3065"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.58611107px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.26458332">has_evidence</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="171.23497"
+       y="184.14449"
+       id="text6312-83"><tspan
+         sodipodi:role="line"
+         id="tspan6310-22"
+         x="171.23497"
+         y="184.14449"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.58611107px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.26458332">has_disease</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.58611107px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="136.75722"
+       y="223.96765"
+       id="text6312-5"><tspan
+         sodipodi:role="line"
+         id="tspan6366"
+         x="136.75722"
+         y="223.96765">has_molecular_entity</tspan><tspan
+         sodipodi:role="line"
+         id="tspan6370"
+         x="136.75722"
+         y="229.70029">(or has_biomarker)</tspan></text>
+  </g>
+</svg>
