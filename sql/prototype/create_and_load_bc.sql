@@ -7,6 +7,7 @@ DROP TABLE IF EXISTS biomarker_record;
 DROP TABLE IF EXISTS disease;
 DROP TABLE IF EXISTS drug;
 DROP TABLE IF EXISTS patient;
+DROP TABLE IF EXISTS json;
 
 -- -----------------------------------------------------
 -- Biomarker
@@ -21,9 +22,9 @@ CREATE TABLE IF NOT EXISTS biomarker (
 );
 
 LOAD DATA LOCAL INFILE
-  '../biomarker_curation/data/released/db/biomarker.csv' 
+  '../biomarker_curation/data/released/db/biomarker.csv'
 INTO TABLE biomarker
-FIELDS 
+FIELDS
   TERMINATED BY ','
   ENCLOSED BY '"'
 LINES
@@ -35,7 +36,7 @@ IGNORE 1 LINES;
 -- -----------------------------------------------------
 CREATE TABLE IF NOT EXISTS biomarker_record (
     record_id VARCHAR(50),
-	drug VARCHAR(500),
+    drug VARCHAR(500),
     biomarker VARCHAR(50),
     biomarker_relations  VARCHAR(50),
     biomarker_description VARCHAR(1000),
@@ -47,9 +48,9 @@ CREATE TABLE IF NOT EXISTS biomarker_record (
 );
 
 LOAD DATA LOCAL INFILE
-  '../biomarker_curation/data/released/db/biomarker_record.csv' 
+  '../biomarker_curation/data/released/db/biomarker_record.csv'
 INTO TABLE biomarker_record
-FIELDS 
+FIELDS
   TERMINATED BY ','
   ENCLOSED BY '"'
 LINES
@@ -69,7 +70,7 @@ CREATE TABLE IF NOT EXISTS disease (
 LOAD DATA LOCAL INFILE
   '../biomarker_curation/data/released/db/disease.csv'
 INTO TABLE disease
-FIELDS 
+FIELDS
   TERMINATED BY ','
   ENCLOSED BY '"'
 LINES
@@ -113,3 +114,11 @@ FIELDS
 LINES
   TERMINATED BY '\n'
 IGNORE 1 LINES;
+
+-- -----------------------------------------------------
+-- json
+-- -----------------------------------------------------
+CREATE TABLE IF NOT EXISTS json (
+    record_id VARCHAR(50),
+    body VARCHAR(20000)
+);
