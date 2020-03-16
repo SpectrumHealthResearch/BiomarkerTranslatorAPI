@@ -1,15 +1,6 @@
-from flask_restful import Resource
-from ..common.query import Query
+from .template_resource import TemplateResource
 
 
-class Biomarker(Resource):
+class Biomarker(TemplateResource):
 
-    def get(self, curie=None):
-        if not curie:
-            return None
-        return ({'curie': curie})
-
-    def post(self, curie):
-        if not curie:
-            return None
-        return ({'curie': curie})
+    table = 'biomarker'

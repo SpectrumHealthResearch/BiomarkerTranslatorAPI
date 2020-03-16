@@ -62,7 +62,7 @@ IGNORE 1 LINES;
 -- -----------------------------------------------------
 CREATE TABLE IF NOT EXISTS disease (
     record_id VARCHAR(50),
-	disease_name VARCHAR(500),
+	  name VARCHAR(500),
     disease_id VARCHAR(50),
     id_source VARCHAR(50)
 );
@@ -82,7 +82,7 @@ IGNORE 1 LINES;
 -- -----------------------------------------------------
 CREATE TABLE IF NOT EXISTS drug (
     record_id VARCHAR(50),
-    drug_name VARCHAR(500),
+    name VARCHAR(500),
     drugbank_id VARCHAR(50),
     pubchem_id VARCHAR(50)
 );

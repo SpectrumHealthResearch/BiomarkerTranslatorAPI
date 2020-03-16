@@ -21,4 +21,3 @@ class Query():
         cursor = self.conn.cursor()
         cursor.execute(sql, params)
         return cursor.fetchall()
-
