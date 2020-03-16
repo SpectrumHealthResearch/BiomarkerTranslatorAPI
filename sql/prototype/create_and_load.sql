@@ -62,7 +62,7 @@ IGNORE 1 LINES;
 -- -----------------------------------------------------
 CREATE TABLE IF NOT EXISTS disease (
     record_id VARCHAR(50),
-	  name VARCHAR(500),
+    name VARCHAR(500),
     disease_id VARCHAR(50),
     id_source VARCHAR(50)
 );
