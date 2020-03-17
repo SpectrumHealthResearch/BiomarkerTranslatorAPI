@@ -107,7 +107,7 @@ CREATE TABLE IF NOT EXISTS patient (
 
 LOAD DATA LOCAL INFILE
   '../biomarker_curation/data/released/db/patient.csv'
-INTO TABLE drug
+INTO TABLE patient
 FIELDS
   TERMINATED BY ','
   ENCLOSED BY '"'
