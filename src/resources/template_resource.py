@@ -3,29 +3,32 @@ from json import loads
 from ..common.query import Query
 
 
-class Patient(Resource):
+class TemplateResource(Resource):
 
-    table = 'patient'
+    table = ''
     sql_find_records = ('select a.record_id '
                         'from {} a '
-                        'where a.patient_id = %(patient_id)s')
+                        'where a.name = %(name)s')
     sql_retrieve_json = ('select a.body '
                          'from json a '
                          'where a.record_id in %(record_id)s')
 
-    def get(self, patient_id=None):
-        if not patient_id:
+    def get(self, name=None):
+        if not name:
             abort(400)
 
         q = Query()
+
+        # Get all records matching a name
         q.cursor.execute(
                 self.sql_find_records.format(self.table),
-                {'patient_id': patient_id})
+                {'name': name})
         res = q.cursor.fetchall()
 
         if not res:
             abort(404)
 
+        # Get the JSON object matching the record_id(s)
         q.cursor.execute(
                 self.sql_retrieve_json,
                 {'record_id': [i['record_id'] for i in res]})
