@@ -120,5 +120,5 @@ IGNORE 1 LINES;
 -- -----------------------------------------------------
 CREATE TABLE IF NOT EXISTS json (
     record_id VARCHAR(50),
-    body VARCHAR(20000)
+    body TEXT
 );
