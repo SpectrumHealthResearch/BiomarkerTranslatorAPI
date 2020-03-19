@@ -1,15 +1,15 @@
 openapi: 3.0.2
 info:
-  title: Translator Biomarker API
+  title: Biomarker Translator API
   description: API to return biomarker information for the NCATS Biomedical Translator project.
   version: '1.0'
   
 paths:
-  /biomarker/{biomarker_id}:
+  /biomarker/{name}:
     get:
       parameters:
         - in: path
-          name: biomarker_id
+          name: name
           required: true
           schema:
             type: string
@@ -21,14 +21,16 @@ paths:
             application/json:
               schema:
                 $ref: '#/components/schemas/NodeList'
+        400:
+          description: Bad request
         404:
           description: Biomarker not found
    
-  /drug/{drug_id}:
+  /drug/{name}:
     get:
       parameters:
         - in: path
-          name: drug_id
+          name: name
           required: true
           schema:
             type: string
@@ -40,15 +42,17 @@ paths:
             application/json:
               schema:
                 $ref: '#/components/schemas/NodeList'
+        400:
+          description: Bad request
         404:
           description: Drug not found
           
      
-  /disease/{disease_name}:
+  /disease/{name}:
     get:
       parameters:
         - in: path
-          name: disease_name
+          name: name
           required: true
           schema:
             type: string
@@ -60,18 +64,20 @@ paths:
             application/json:
               schema:
                 $ref: '#/components/schemas/NodeList'
+        400:
+          description: Bad request
         404:
           description: Disease not found    
     
-  /patient/{biomarker_id}:
+  /patient/{patient_id}:
     get:
       parameters:
         - in: path
-          name: biomarker_id
+          name: patient_id
           required: true
           schema:
             type: string
-      description: List all OCTAD patients with a given biomarker
+      description: Show all records associated with OCTAD patient
       responses:
         200:
           description: Successful operation
@@ -79,8 +85,10 @@ paths:
             application/json:
               schema:
                 $ref: '#/components/schemas/NodeList'
+        400:
+          description: Bad request
         404:
-          description: Biomarker not found
+          description: Patient not found
 
 components:
   schemas:
@@ -105,16 +113,3 @@ components:
           oneOf:
             - type: string
             - type: array
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-  
-  
-  

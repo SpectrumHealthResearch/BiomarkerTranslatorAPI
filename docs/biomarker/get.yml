@@ -1,0 +1,42 @@
+parameters:
+  - in: path
+    name: name
+    required: true
+    schema:
+      type: string
+description: List biomarker information, including related drugs and diseases
+responses:
+  200:
+    description: Successful operation
+    content:
+      application/json:
+        schema:
+          $ref: '#/components/schemas/NodeList'
+  400:
+    description: Bad request
+  404:
+    description: Biomarker not found
+   
+components:
+  schemas:
+    NodeList: 
+      type: object
+      description: A list of nodes that answer the query
+      properties:
+        nodes:
+          type: array
+          description: List of matching nodes
+          items:
+            $ref: '#/components/schemas/Node'
+    Node:
+      type: object
+      description: A node in a thought subgraph
+      properties:
+        id:
+          type: string
+        name:
+          type: string
+        type:
+          oneOf:
+            - type: string
+            - type: array
