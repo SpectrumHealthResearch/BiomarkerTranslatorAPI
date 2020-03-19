@@ -20,6 +20,7 @@ setup(name='BiomarkerTranslatorAPI',
           'flask_restful',
           'pymysql',
           'python-dotenv',
+          'flasgger',
       ],
       keywords=[
           'biomarker', 
